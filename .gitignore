@@ -1,0 +1,7 @@
+node_modules/
+test/config.js
+.idea
+lib/lib.iml
+.project
+
+node-influx.iml
