@@ -1,6 +1,6 @@
 {
   "name": "influx-core",
-  "description": "Communicate with influx-cli via JSON-RPC",
+  "description": "Communicate with influxd via JSON-RPC",
   "version": "1.0.0",
   "main": "lib/index.js",
   "keywords": [
