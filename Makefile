@@ -1,5 +1,5 @@
 MOCHA=./node_modules/.bin/mocha
-BOX=test/testnet-box
+BOX=test/influx-testnet-box
 
 test:
 	$(MAKE) test-ssl-no
@@ -27,7 +27,7 @@ start-ssl:
 	
 stop:
 	$(MAKE) -C $(BOX) stop
-	@while ps -C syscoind > /dev/null; do sleep 1; done
+	@while ps -C influxd > /dev/null; do sleep 1; done
 
 stop-ssl:
 	$(MAKE) -C $(BOX) stop B1_FLAGS=-rpcssl=1 B2_FLAGS=-rpcssl=1
