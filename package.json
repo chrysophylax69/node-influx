@@ -28,7 +28,7 @@
     "url": "git://github.com/influxteam/influx.git"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.4.7"
   },
   "scripts": {
     "pretest": "standard --verbose",
