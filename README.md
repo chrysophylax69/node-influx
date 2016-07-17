@@ -4,7 +4,7 @@
 [![downloads][downloads-image]][downloads-url]
 [![js-standard-style][standard-image]][standard-url]
 
-[travis-image]: https://travis-ci.org/influxteam/node-influx.svg?branch=influx
+[travis-image]: https://travis-ci.org/influxteam/node-influx.svg?branch=master
 [travis-url]: https://travis-ci.org/influxteam/node-influx
 
 [npm-image]: https://img.shields.io/npm/v/influx.svg?style=flat
