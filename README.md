@@ -8,10 +8,10 @@
 [travis-url]: https://travis-ci.org/influxteam/node-influx
 
 [npm-image]: https://img.shields.io/npm/v/influx.svg?style=flat
-[npm-url]: https://npmjs.org/package/influx
+[npm-url]: https://npmjs.org/package/node-influx
 
 [downloads-image]: https://img.shields.io/npm/dm/influx.svg?style=flat
-[downloads-url]: https://npmjs.org/package/influx
+[downloads-url]: https://npmjs.org/package/node-influx
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: http://standardjs.com
@@ -24,7 +24,7 @@ object, or you may call the API directly using the `cmd` method.
 
 ## Install
 
-`npm install influx`
+`npm install node-influx`
 
 ## Examples
 
