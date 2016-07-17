@@ -31,6 +31,7 @@ object, or you may call the API directly using the `cmd` method.
 ### Create client
 ```js
 // all config options are optional
+var influx = require('node-influx');
 var client = new influx.Client({
   host: 'localhost',
   port: 9239,
