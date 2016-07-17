@@ -12,7 +12,7 @@ services:
 
 before_script:
   - git submodule update --init
-  - docker build -t node-influx .
+  - docker build -t node-influx:v1 .
 
 script:
-  - docker run node-influx
+  - docker run node-influx:v1
