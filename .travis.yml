@@ -9,6 +9,9 @@ install: true
 
 services:
   - docker
-
+before_script:
+  - git submodule update --init
+  - docker build -t influxteam/node-influx:v1 .
+  
 script:
   - docker run influxteam/node-influx:v1
