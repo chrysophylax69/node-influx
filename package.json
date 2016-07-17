@@ -1,5 +1,5 @@
 {
-  "name": "influx-core",
+  "name": "node-influx",
   "description": "Communicate with influxd via JSON-RPC",
   "version": "1.0.0",
   "main": "lib/index.js",
