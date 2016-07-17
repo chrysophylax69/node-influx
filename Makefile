@@ -27,7 +27,7 @@ start-ssl:
 	
 stop:
 	$(MAKE) -C $(BOX) stop
-	@while ps -C influxd > /dev/null; do sleep 1; done
+	@while ps -C Influxd > /dev/null; do sleep 1; done
 
 stop-ssl:
 	$(MAKE) -C $(BOX) stop B1_FLAGS=-rpcssl=1 B2_FLAGS=-rpcssl=1
