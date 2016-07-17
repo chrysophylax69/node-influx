@@ -15,4 +15,4 @@ before_script:
   - docker build -t node-influx:v1 .
 
 script:
-  - docker run node-influx:v1
+  - docker run node-influx
