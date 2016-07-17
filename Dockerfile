@@ -6,7 +6,7 @@ MAINTAINER Influx Team <dev@influxcoin.xyz>
 # install node.js
 USER root
 RUN apt-get install --yes curl
-RUN curl --silent --location https://deb.nodesource.com/setup_0.10 | bash -
+RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 RUN apt-get install --yes nodejs
 
 # install module dependencies
