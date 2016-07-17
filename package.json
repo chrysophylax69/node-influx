@@ -1,7 +1,7 @@
 {
   "name": "node-influx",
   "description": "Communicate with influxd via JSON-RPC",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "keywords": [
     "influx",
@@ -23,6 +23,10 @@
     "standard": "^5.3.1"
   },
   "optionalDependencies": {},
+  "scripts": {
+    "pretest": "standard --verbose",
+    "test": "make test"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/influxteam/influx.git"
